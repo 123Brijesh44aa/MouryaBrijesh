@@ -164,8 +164,6 @@ fun DateTimeScreen() {
             ClockLegend()
         }
 
-        // Unique Animated Instruction Overlay
-        var showHelpDialog by remember { mutableStateOf(false) }
 
         val infiniteTransition = rememberInfiniteTransition(label = "pulse")
         val alpha by
